@@ -2,9 +2,9 @@
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
 import HelloWorld from './components/HelloWorld.vue'
-import { isNumber2 } from 'my-utils/is-number2'
+import { isNumber } from 'my-utils/is-number'
 
-console.log(isNumber2('123'))
+console.log(isNumber('123'))
 </script>
 
 <template>

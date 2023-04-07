@@ -1,1 +1,0 @@
-export const isNumber2 = (val: unknown): val is number => typeof val === 'number'
